@@ -152,6 +152,16 @@ a {
   height: 1px;
 }
 
+#edu{
+  margin-top: 2em;
+  margin-bottom: 3em;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5em;
+}
+#edu p{
+  margin: 0;
+}
 @media (max-width: 600px) {
   .section--page {
     padding-top: 1em;
