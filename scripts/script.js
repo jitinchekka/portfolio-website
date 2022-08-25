@@ -17,5 +17,5 @@ function copyfn() {
   document.getElementById("email").innerHTML = "Copied";
   setTimeout(function () {
     document.getElementById("email").innerHTML = original;
-  }, 500);
+  }, 800);
 }
