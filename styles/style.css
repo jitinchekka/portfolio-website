@@ -152,18 +152,39 @@ a {
   height: 1px;
 }
 
-#edu{
+#edu {
   margin-top: 2em;
   margin-bottom: 3em;
   display: flex;
   flex-direction: column;
   row-gap: 0.5em;
 }
-#edu p{
+#edu p {
   margin: 0;
 }
+
+.card--achievements {
+  border: 1px solid var(--mainBorderColor);
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1em 0;
+  background-color: var(--mainBgColor);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+
+
+.card--achievements:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  background-color: var(--mainBgColor-light);
+  color: var(--mainTextColor-light);
+  cursor: pointer;
+
+}
+
 @media (max-width: 600px) {
-  html{
+  html {
     font-size: 9px;
   }
   .section--page {
