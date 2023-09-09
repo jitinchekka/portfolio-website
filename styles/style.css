@@ -175,13 +175,13 @@ a {
 
 
 
-.card--achievements:hover {
+/* .card--achievements:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   background-color: var(--mainBgColor-light);
   color: var(--mainTextColor-light);
   cursor: pointer;
 
-}
+} */
 
 @media (max-width: 600px) {
   html {
